@@ -29,7 +29,7 @@ function safeBuyBuilding(building) {
   }        
   else game.global.buyAmt = 1;
 
-  if (!canAffordBuilding(building)) {
+  if (true) { // Highlighting Only
       postBuy2(oldBuy);
       return false;
   }
